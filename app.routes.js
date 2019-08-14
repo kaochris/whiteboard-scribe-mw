@@ -32,4 +32,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(emailRouter);
 app.use(cameraRouter);
 
+app.get('/', (req, res, next) => {
+    res.status(200).json({status: "OK"});
+});
+
 module.exports = app;
