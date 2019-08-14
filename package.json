@@ -4,7 +4,7 @@
   "description": "Middleware for Whiteboard Scribe",
   "main": "app.js",
   "scripts": {
-    "start": "export PORT=3000 && node app.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
