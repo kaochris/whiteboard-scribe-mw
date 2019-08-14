@@ -1,5 +1,5 @@
-const { PORT } = process.env;
-const { NODE_ENV } = process.env;
+const { PORT } = process.env.PORT;
+const { NODE_ENV } = process.env.NODE_ENV;
 
 const app = require('./app.routes');
 
