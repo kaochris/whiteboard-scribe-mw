@@ -1,0 +1,24 @@
+{
+  "name": "whiteboard-scribe-mw",
+  "version": "1.0.0",
+  "description": "Middleware for Whiteboard Scribe",
+  "main": "app.js",
+  "scripts": {
+    "start": "export PORT=3000 && node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaochris/whiteboard-scribe-mw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaochris/whiteboard-scribe-mw/issues"
+  },
+  "homepage": "https://github.com/kaochris/whiteboard-scribe-mw#readme",
+  "dependencies": {
+    "@google-cloud/vision": "^1.1.4",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
